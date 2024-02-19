@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body,
+html {
+    /* background: url(whitepaperbg.mp4); */
+    height: 100%;
+    width: 100%;
+    /* background-color: #FFFFFA; */
+    /* position: relative; */
+    /* overflow: hidden; */
+}
+
+.iam {
+    font-size: 20vh;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    margin: 10vh 0vh 0vh 15vh;
+}
+
+.iam {
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to bottom, #8054a7, #8d799e, #BBBDF6);
+}
+
+
+.iam {
+    -webkit-transition: margin 0.5s ease-in-out;
+    transition: margin 0.5s ease-in-out;
+}
+
+.imgcontainer {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    padding-top: 350px;
+    margin-top: -300px;
+}
+
+.png0 {
+    margin-top: -190px;
+    margin-left: -590px;
+    display: flex;
+    position: absolute;
+    height: 500px;
+    width: 1200px;
+    opacity: 0.6;
+}
+
+.png1 {
+    margin-top: -390px;
+    padding-left: 590px;
+    position: absolute;
+    height: 500px;
+    width: 1200px;
+    opacity: 0.7;
+}
+
+.iam2 {
+    position: absolute;
+    font-size: 7vh;
+    padding-left: 60vh;
+    padding-top: 5vh;
+    background: linear-gradient(to bottom right, #8054a7, #8d799e, #BBBDF6);
+    background-clip: text;
+    color: transparent;
+    opacity: 0;
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.png2 {
+    margin-top: -30vh;
+    margin-left: -10vh;
+    transform: rotate(90deg);
+    opacity: 0.4;
+    /* z-index: +1; */
+}
+
+.bio1{
+    font-size: 3.5vh;
+    font-weight: 600;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #8054a7, #8d799e, #BBBDF6);
+    background-clip: text;
+    color: transparent;
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    margin-top: 300px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.whoiam{
+    display: flex;
+    font-size: 3.5vh;
+    font-weight: 600;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #8054a7, #8d799e, #BBBDF6);
+    background-clip: text;
+    color: transparent;
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    margin-top: 550px;
+    margin-left: 330px;
+    margin-right: 80px;
+}
+
+#whoiam2{
+    display: flex;
+    font-size: 8.5vh;
+    font-weight: 600;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #8054a7, #8d799e, #BBBDF6);
+    background-clip: text;
+    color: transparent;
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    margin-top: 750px;
+    margin-left: 330px;
+    margin-right: 80px;
+}
+
+.whoiamlist{
+    display: flex;
+    font-size: 4vh;
+    font-weight: 700;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #3c0c65, #8d799e, #BBBDF6);
+    background-clip: text;
+    color: transparent;
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    margin-top: 800px;
+    margin-left: 500px;
+    margin-right: 80px;
+    padding-bottom: 200px;
+    z-index: 2;
+}
+
+.png21 {
+    height: 100%;
+    width: 100%;
+    margin-top: 100vh;
+    margin-left: 15vh;
+    margin-right: -50vh;
+    transform: rotate(90deg);
+    opacity: 0.4;
+}
+
+.png2111 {
+    height: 100%;
+    width: 100%;
+    margin-top: 30vh;
+    margin-left: 10vh;
+    margin-right: -90vh;
+    transform: rotate(90deg);
+    opacity: 0.3;
+}
